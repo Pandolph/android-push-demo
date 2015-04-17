@@ -14,8 +14,8 @@ public class PushDemoApp extends Application {
   public void onCreate() {
     super.onCreate();
     // 初始化应用信息
-    AVOSCloud.initialize(this, "gqd0m4ytyttvluk1tnn0unlvmdg8h4gxsa2ga159nwp85fks",
-        "7gd2zom3ht3vx6jkcmaamm1p2pkrn8hdye2pn4qjcwux1hl1");
+    AVOSCloud.initialize(this, "2s4amu2ol6y6j369flxy4orr38o4rtpoj2tldfvx4yk1945g",
+            "x0wktubwarcb37tp4i3mhxvlbgaretjaxxiakua3mcjjt3ft");
     // 启用崩溃错误统计
     AVAnalytics.enableCrashReport(this.getApplicationContext(), true);
     AVOSCloud.setDebugLogEnabled(true);
